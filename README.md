@@ -1,5 +1,5 @@
 # MiniHubBackEnd
 
 Steps to run :
-pip install requirements.txt
+pip install -r requirements.txt
 uvicorn api:app --reload
