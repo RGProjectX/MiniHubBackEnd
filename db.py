@@ -6,3 +6,5 @@ client = MongoClient('mongodb+srv://rohit:rohit@cluster0.3xmfspx.mongodb.net/?re
 db = client['minihub']
 user_collection = db['users']
 project_collection = db['projects']
+
+print("Connected to MongoDB")
